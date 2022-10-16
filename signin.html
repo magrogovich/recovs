@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <!-- PAGE NUMBER 2 -->
+    <head>
+        <title>Sign up</title>
+        <link href="style/sign-in.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="https://raw.githubusercontent.com/magrogovich/media/main/logo.png">
+
+    </head>
+
+    <body>
+        <form action="php/verif-signin.php" method="post">
+            <div class="content">
+                <div class="header">
+                    <p id="log_in">Create account</p>
+                </div>
+    
+                <div class="boxes">
+
+                    <div class="box1">
+
+                        <div class="back1">
+                            <input id="input_box1" name="fname" class="input_name" type="text" placeholder="First name">
+                        </div>
+    
+                        <div class="back2">
+                            <input id="input_box1" name="lname" class="input_Last" type="text" placeholder="Last name">
+                        </div>   
+                    </div>
+                    <div class="box2">
+                        <input id="input_box2" name="username" class="username" type="text" placeholder="Username">
+                    </div>
+                    <div class="box2">
+                        <input id="input_box2" name="email" class="email" type="text" placeholder="Email">
+                    </div>
+    
+                    <div class="box2">
+                        <input id="input_box2" name="pwd"  class="password" type="password" placeholder="Password"  required>
+                    </div>
+                    <div class="box2">
+                        <input id="input_box2" class="confpass" type="password" placeholder="Confirm password" required>
+                    </div>
+                    <div class="box2">
+                        <input id="input_box2" name="age" class="age" type="number" placeholder="Age"  required>
+                    </div>
+                    <div class="tags" >
+                        <div>
+                            <input type="checkbox" value="Math" name="mt" id="mt"><label for="mt">Math</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" value="Physic" name="ph" id="ph"><label for="ph">Physic</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" value="Programming" name="pr" id="pr"><label for="pr">Programming</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" value="Robotic" name="rb" id="rb"><label for="rb" required>Robotic</label>
+                        </div>
+                    </div>
+                   
+    
+                    <div class="box5">
+                        <input id="check" type="checkbox">
+                        <p class="privacy">I agree to <a id="link1" href="#">website name terms of use</a> and acknowledge <a id="link1" href="#">the Privacy Statement</a></p>
+                    </div>
+                </div>
+    
+                <div class="btn">
+                    <input  type='submit' id="button" value="Sign In">
+                </div>
+    
+                <div class="link">
+                    <span id="quest">ALREADY HAVE AN ACCOUNT? </span>
+                    <a id="link_quest" href="signin.html">SIGN IN</a>
+                </div>
+    
+                <div>
+                    <p id="learn"><a href="#" id="learn">LEARN MORE</a></p>
+                </div>
+            </div>
+        </form>
+        <script src="function/login.js"></script>
+    </body>
+</html>

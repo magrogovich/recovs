@@ -1,0 +1,169 @@
+body{
+    background-color: #ffffff;
+    margin:0 auto;
+    width: 70%;
+    clear: both;
+}
+header nav{
+    height: 40px;
+    width: 100%;
+}
+header nav ul {
+    list-style: none;
+    display: inline;
+
+}
+header ul li{
+    display: inline-block;
+}
+.search-container{
+    position: absolute;
+    left: 500px;
+    top: 15px;
+    width: 500px;
+    height: 30px;
+}
+.search-icon {
+    position: absolute;
+    left: 145px;
+    top: 5px;
+    
+}
+.search-container container-bar{
+    width: 100%;
+    height: 100%;
+}
+.container-bar input {
+    
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #D9D9D9;  
+}
+.container-bar input:focus{
+    outline: none;
+}
+header nav ul a{
+    color: #0080F0;
+    text-decoration: none;
+    padding: 10px;
+}
+header nav ul a:hover,header nav ul a:active{
+    background-color: #D9D9D9;
+    
+    border-radius: 7px;
+} 
+ ul.flist {
+    position:absolute;
+    left:200px;
+
+}
+ul.slist {
+    position: absolute;
+    left: 300px;
+}
+ ul.tlist {
+    position: absolute;
+    left: 1000px;
+}
+
+.font-user{
+border:1px solid black;
+border-radius: 25px;
+width: 800px;
+height: 190px;
+position: absolute;
+left:350px;
+top: 100px;
+background-image: url('img/back1.jpg');
+}
+.img-user{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 100% ;
+    border: 1px solid #0080F0;
+    left: 35px;
+    top: 20px;
+
+}
+.img-user img{
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+.name{
+    position: absolute;
+    left: 350px;
+    top: 290px;
+
+}
+.list-carriere{
+    position: absolute;
+    left: 550px;
+    top: 320px;
+}
+.list-carriere ul{
+    display: inline;
+    list-style: none;
+}
+.list-carriere ul li{
+    display: inline-block;
+}
+.list-carriere a{
+    text-decoration: none;
+    color: rgb(8, 131, 255);
+    font-size: 20px;
+    padding: 7px;
+}
+.Edit{
+    position: absolute;
+    top: 320px;
+    left: 1050px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.Edit{ 
+    
+    padding: 15px 30px;
+    
+   
+}
+.Edit a{
+    text-decoration: none;
+    color: black;
+}
+
+.description{
+    top: 360px;
+    position: absolute;
+    z-index: 101;
+    left: 350px;
+}
+
+.description a{
+    color: #0080F0;
+    text-decoration: none;
+    
+}
+.list-nav{ 
+    position: absolute;
+    left: 500px;
+    top: 500px;
+}
+.list-nav ul{
+    list-style: none;
+    display: inline;
+    text-align: center;
+}
+.list-nav ul li{
+    display: inline-block;
+    
+}
+.list-nav ul li a{
+color: gray;
+padding: 15px;
+text-decoration: none;
+}

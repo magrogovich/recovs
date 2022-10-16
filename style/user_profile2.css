@@ -1,0 +1,391 @@
+body{
+    background-color: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    position: absolute;
+    z-index: 101;
+}
+
+.header1{
+    
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+.header2{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 50px;
+}
+.header3{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    height: 50px;
+}
+.a{
+    text-decoration: none;
+    color: #007FFF;
+}
+#icon{
+    font-size: 30px;
+}
+#iconacc{
+    width: 30px;
+    height: 30px;
+}
+/*////////////////////////*/
+.input{
+    border-radius: 8px;
+    background-color: #D9D9D9;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 470px;
+    height: 28px;
+    display: flex;
+
+}
+
+.input_box{
+    display: inline-block;
+    width: 100%;
+}
+
+#search_box{
+    width: 450px;
+    height: 28px;
+    border-radius: 8px;
+    border: none;
+    background-color: transparent;
+}
+
+
+.icon_box{
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+    color: #666666;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search_box::-webkit-input-placeholder {
+    text-align: center;
+    color: #666666;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center; 
+    color: #666666;
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center; 
+    color: #666666;
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center;
+    color: #666666;
+ }
+
+
+#search_box:focus {
+    outline: none;
+}
+/*////////////////////////*/
+.im{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+.menu{
+    align-items: center;
+}
+#icon1{
+    font-size: 30px;
+    margin-left: 20px;
+}
+#icon2{
+    font-size: 30px;
+    margin-left: 20px;
+}
+#icon3{
+    font-size: 30px;
+    margin-left: 20px;
+}
+#icon4{
+    font-size: 30px;
+    margin-left: 20px;
+}
+/*!--/////////////////////////--*/
+.aside{
+    width: 300px;
+    height: 250px;
+    border-radius: 30px;
+    background-color: #F0F0F0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.list{
+    background-color: transparent;
+    background-color: #F0F0F0;
+    border-radius: 30px;
+}
+.section{
+    width: 100%;
+    height: 72px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.divimg{
+    height: 50px;
+    width: 50px;
+    padding: 11px;
+}
+#acclimg{
+    border-radius: 50%;
+    height: 50px;
+}
+#p1{
+    color: black;
+    margin-bottom: 5px;
+}
+#p2{
+    margin-top: 5px;
+    color: #007FFF;
+}
+.border{
+    height: 250px;
+    width: 250px;
+    overflow-y: scroll;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+#footer{
+    color: #007FFF;
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+    width: 14%;
+    margin: 0 auto;
+}
+#footer:hover{
+    color: #FF0000;
+}
+.aside1{
+    width: 350px;
+    height: 350px;
+    position: fixed;
+}
+.fs{
+    color: #999999;
+    font-size: 12px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+/*#fps{
+    color: #4D4D4D;
+    font-size: 12px;
+    margin-top: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 0;
+    cursor: pointer;
+    width: 100%;
+}*/
+.article{
+    width: 500px;
+    border-radius: 25px;
+    background-color: white;
+    margin-left: 325px;
+    margin-bottom: 30px;
+}
+
+#imgcon{
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+}
+#imgacccon{
+    height: 40px;
+    border-radius: 50%;
+}
+.imgacccon{
+    width: 40px;
+    position: absolute;
+    z-index: 100;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.posticon{
+    display: flex;
+    margin-top: 10px;
+}
+.iconn1{
+    font-size: 25px;
+    color: #CC0000;
+    margin-left: 10px;
+    height: 25px;
+    cursor: pointer;
+}
+.iconn2{
+    font-size: 25px;
+    color: #999999;
+    height: 25px;
+    margin-left: 401px;
+    cursor: pointer;
+}
+.iconn3{
+    font-size: 25px;
+    color: black;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#postdes{
+    font-size: 15px;
+    color: #666666;
+    margin-top: 0;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 30px;
+    margin-left: 10px;
+}
+#imgcm{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.imgcm{
+    margin-left: 10px;
+}
+.comment{
+    margin-left: 10px;
+}
+.commentacc{
+    display: flex;
+}
+#name{
+    height: 12px;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8.5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+#comm{
+    height: 12px;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8.5px;
+    color: #999999;
+    width: 100%;
+}
+.clap{
+    display: flex;
+}
+#clapicon{
+    width: 12px;
+    height: 15px;
+    margin-left: 10px;
+    margin-top: 3px;
+    color: #007FFF;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#claptext{
+    margin-left: 10px;
+    margin-top: 3px;
+    color: #007FFF;
+    margin-bottom: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.input_com{
+    display: inline-block;
+    
+}
+#com_box{
+    width: 440px;
+    height: 28px;
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+}
+.icon_com_box{
+
+    cursor: pointer;
+    font-size: 20px;
+    color: #666666;
+    height: 28px;
+    width: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input_com{
+    border-radius: 30px;
+    background-color: #D9D9D9;
+    width: 480px;
+    height: 28px;
+    display: flex;
+    margin-left: 10px;
+    
+}
+.com{
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+#com_box:focus {
+    outline: none;
+}
+
+.content_content{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+

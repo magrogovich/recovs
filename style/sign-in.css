@@ -1,0 +1,282 @@
+body {
+    background-color: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    caret-color: #007FFF;
+    
+}
+
+.content {
+    width: 406px;
+    margin: 0 auto;
+    padding: 40px 25px;
+    background-color: #F5F5F5;
+}
+
+#log_in {
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+#input_box1 {
+    width: 192px;
+    height: 40px;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+#input_box1:focus {
+    outline: none;
+}
+
+.back1 {
+    width: 190px;
+    height: 40px;
+    border: 2px solid #B3B3B3;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.back2 {
+    width: 191px;
+    height: 40px;
+    border: 2px solid #B3B3B3;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 5px;
+    margin-left: 6px;
+    padding-right: 5px;
+}
+.box1 {
+    display: inline-flex;
+    margin-bottom: 28px;
+}
+
+#input_box2 {
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+#input_box2:focus {
+    outline: none;
+}
+
+.box2 {
+    width: 400px;
+    height: 40px;
+    border: 2px solid #B3B3B3;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 28px;
+}
+
+.box4 {
+    display: inline-flex;
+    margin-bottom: 28px;
+}
+
+#input_box4 {
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+#input_box4:focus {
+    outline: none;
+}
+.back4 {
+    width: 120px;
+    height: 40px;
+    border: 2px solid #B3B3B3;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+
+#input_box_4{
+    width: 122px;
+    height: 40px;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+#input_box_4:focus {
+    outline: blue;
+}
+
+.back_4 {
+    width: 122px;
+    height: 40px;
+    border: 2px solid #B3B3B3;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.file-ch {
+    margin: 20px 0px;
+    font-size: 18px;
+    background-color: white;
+    outline: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.file-ch label {
+    color:#B3B3B3;
+}
+.file-ch input{
+    margin: 15px 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007FFF;
+    border-radius: 5px;
+}
+
+.account-type {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 20px 10px;
+    outline: 1px solid gray;
+    border-radius: 5px;
+}
+
+.account-type div label {
+    margin-left: 5px;
+}
+
+
+.tags {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 ; 
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 5px;
+    outline: 1px solid gray;
+
+}
+
+.tags div label {
+    margin-left: 5px ;
+    border:1px dashed #007FFF;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.tags div input:checked + label {
+    border-style: solid ;
+    position: relative;
+    
+    
+}
+
+.tags div input:checked + label::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top : -5px;
+    left:0;
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(left to right , #00bbcb 50% , #62cb5c 50%) ;
+}
+
+.tags div input {
+    display: none;
+}
+
+
+
+.box5 {
+    display: inline-flex;
+}
+
+.privacy {
+    margin: 0 auto;
+    width: 400px;
+    font-size: 13px;
+}
+
+#link1 {
+    text-decoration: none;
+    color: #007FFF;
+}
+
+#button {
+    width: 100%;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: #0061C2;
+}
+
+.box5 {
+    margin-bottom: 30px;
+}
+
+.btn{
+    width: 100%;
+    height: 35px;
+    border: 2px solid #007FFF;
+    border-radius: 5px;
+    background-color: #007FFF;
+    margin-bottom: 15px;
+    
+}
+
+.link{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+#link_quest{
+    text-decoration: none;
+    color: #007FFF;
+}
+
+#learn{
+    text-decoration: none;
+    color: #007FFF;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 30px;
+    
+}
